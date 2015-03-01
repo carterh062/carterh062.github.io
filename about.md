@@ -9,4 +9,4 @@ permalink: /about/
 
 ### Contact me
 
-[carterh062@domain.com](mailto:carterh062@gmail.com)
+[carterh062@gmail.com](mailto:carterh062@gmail.com)
