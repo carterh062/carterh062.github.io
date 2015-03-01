@@ -9,7 +9,7 @@ name: Carter Henderson
 description: Web Developer from Philadelphia
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/me.jpg
+avatar: ../images/me.jpg
 
 #
 # Flags below are optional
