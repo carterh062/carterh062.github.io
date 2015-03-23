@@ -5,7 +5,8 @@ permalink: /projects/
 ---
 
 ####Current
-[Original Spark Frontend](http://hackerhenderson.com/OriginalSparkFrontend)
+[Original Spark](http://originalspark.com/)
+Working on a case study for this :)
 ####Past
 
 [Photo Editing Xamarin.iOS App](https://github.com/carterh062/PhotoEditIOSXamarin)
