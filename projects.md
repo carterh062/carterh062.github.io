@@ -7,6 +7,10 @@ permalink: /projects/
 ####Current
 [Original Spark](http://originalspark.com/)
 Working on a case study for this :)
+
+[Jorge Cousineau](http://hackerhenderson.com/JorgeCousineau/)
+
+
 ####Past
 
 [Photo Editing Xamarin.iOS App](https://github.com/carterh062/PhotoEditIOSXamarin)
