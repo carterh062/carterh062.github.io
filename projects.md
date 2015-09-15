@@ -5,13 +5,22 @@ permalink: /projects/
 ---
 
 ####Current
-[Original Spark](http://originalspark.com/)
-Working on a case study for this :)
-
-[Jorge Cousineau](http://hackerhenderson.com/JorgeCousineau/)
-
+[NText](http://104.131.178.167:4040/reddit)
+Read articles in realtime with friends - NodeJS(private)
 
 ####Past
+
+[Autobahn](https://github.com/carterh062/Autobahn)
+Directly stream to your friends -  NodeJS
+
+[Fybr](https://github.com/fybrtv)
+Real time TV curation - NodeJS
+
+[Original Spark](http://originalspark.com/)
+Responsive site for ad agency
+
+[Wood Hill Veterinary Clinic](http://woodhillvetclinic.com/)
+Responsive site for veterinary clinic
 
 [Photo Editing Xamarin.iOS App](https://github.com/carterh062/PhotoEditIOSXamarin)
 
