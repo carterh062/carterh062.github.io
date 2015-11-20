@@ -50,7 +50,94 @@
         </footer>
       </div>
     </div>
-
-    {% include analytics.html %}
+    <style>
+      .custom-ch-footer{
+        width: 100%;
+        position: relative;
+        bottom: -100px;
+        display: block;
+        -webkit-transition: bottom 1s ease-in-out;
+        -moz-transition: bottom 1s ease-in-out;
+        -o-transition: bottom 1s ease-in-out;
+        transition: bottom 1s ease-in-out;
+      }
+      .custom-ch-footer.hidden{
+        bottom: -300px;
+      }
+      .custom-ch-footer.teased{
+        bottom: 200px;
+      }
+      .custom-ch-footer > img{
+        display: block;
+        position: absolute;
+      }
+      .custom-ch-footer > img.waves{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+      }
+      .custom-ch-footer > img.boat{
+        top: -70px;
+        height: auto;
+        left: calc(50% - 100px);
+        width: 200px;
+        -webkit-transition: top, left .9s ease-in-out;
+          -moz-transition: top, left .9s ease-in-out;
+          -o-transition: top, left .9s ease-in-out;
+          transition: top, left .9s ease-in-out;
+      }
+      .custom-ch-footer > img.boat.down{
+        top: -69px;
+      }
+      .custom-ch-footer > img.boat.face-left{
+        -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+      }
+      body{
+        position: relative;
+      }
+    </style>
+    <div class="custom-ch-footer hidden">
+      <img class="waves" src="{{ site.waves }}">
+      <img class="boat" src="{{ site.boat }}">
+    </div>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script>
+      //COPYRIGHT - BOAT CODE - Carter Henderson
+      $(document).ready(function(){
+        var $boatHandle = $('img.boat');
+        setTimeout(function(){
+          $('div.custom-ch-footer').removeClass('hidden').addClass('teased');
+          setTimeout(function(){
+            $('div.custom-ch-footer').removeClass('teased')
+          }, 4000)
+        }, 1000)
+        var bobBoat = function(){
+         var isDown = false;
+         var bobInterval = setInterval(function(){
+           $boatHandle.toggleClass('down');
+         }, 900)
+        }
+        var moveBoat = function(){
+         var moveInterval = setInterval(function(){
+           var direction = Math.random() > .5 ? -1 : 1;
+           var magnitude = parseInt(Math.random() * 100);
+           var current_left = parseInt($boatHandle.css('left'));
+           if(direction == -1)
+             $boatHandle.addClass('face-left');
+           else
+             $boatHandle.removeClass('face-left');
+           $boatHandle.css('left',current_left+(magnitude*direction));
+         }, 2000)
+        }
+        bobBoat();
+        moveBoat();
+      })
+    </script>
   </body>
 </html>
