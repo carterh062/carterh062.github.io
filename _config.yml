@@ -6,7 +6,7 @@
 name: Carter Henderson
 
 # Short bio or description (displayed in the header)
-description: Professional SmashyRoad iOS Player / Software Developer / Boat Enthusiast
+description: Drexel University, Materials Engineering
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: ../images/me.jpg
@@ -41,7 +41,7 @@ google_analytics: UA-60235413-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: hackerhenderson.com
+url: carterh062.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -53,7 +53,6 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
 
